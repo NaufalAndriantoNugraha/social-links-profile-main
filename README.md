@@ -22,8 +22,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live Preview](https://naufalandriantonugraha.github.io/qr-code-component-main/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/social-links-profile-card-jeTPVvRWSE)
+- Live Site URL: [Live Preview](https://naufalandriantonugraha.github.io/social-links-profile-main/)
 
 ## My process
 
@@ -35,8 +35,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Useful resources
 
-- [CSS Flexbox](https://www.example.com)
-- [CSS Custom Properties](https://www.example.com)
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox)
+- [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 ## Author
 
