@@ -1,1 +1,140 @@
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
 
+@font-face {
+  font-family: InterSemiBold;
+  src: url(assets/fonts/static/Inter-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: InterBold;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --clr-grey-700: hsl(0, 0%, 20%);
+  --clr-grey-800: hsl(0, 0%, 12%);
+  --clr-grey-900: hsl(0, 0%, 8%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Begin styling component */
+body {
+  background-color: var(--clr-grey-900);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: var(--clr-grey-800);
+  width: 350px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  gap: 25px;
+  padding: 30px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+}
+
+.profile-container p {
+  color: var(--clr-white);
+  font-family: Inter;
+  font-size: 0.875rem;
+}
+
+.profile-container img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.header h1 {
+  color: var(--clr-white);
+  font-family: InterSemiBold;
+  font-size: 1.5rem;
+}
+
+.header p {
+  color: var(--clr-green);
+  font-family: InterBold;
+  font-size: 0.875rem;
+}
+
+.social-media-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.social-media-container li {
+  background-color: var(--clr-grey-700);
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.social-media-container a {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-family: InterSemiBold;
+  font-size: 0.8rem;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: inherit;
+}
+
+.social-media-container a:hover {
+  background-color: var(--clr-green);
+  color: black;
+  cursor: pointer;
+}
